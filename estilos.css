@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@200&family=Island+Moments&display=swap");
+.color-1 {
+  background-color: #0c0c0c;
+  width: 100%;
+  height: 80px;
+}
+.posicion-fija-navbar{
+    position: fixed;
+    top: 0;
+}
+.display {
+  display: flex;
+  justify-content: space-around;
+}
+ul {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+  color: #ffffff;
+  font-family: 'Island Moments', cursive;
+  font-size: 30px;
+}
+.enmedio {
+  position: absolute;
+  top: 27px;
+}
+.logo{
+    width: 200px;
+    height: 50px;
+    position: absolute;
+    left: 80px;
+    top: 27px;
+}
+.padre{
+    background-color:transparent;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    width: 100%;
+    height: 300px;
+    position: absolute;
+    top: 15%;
+    left: 3%;
+
+}
+.hijo-1, .hijo-2, .hijo-3, .hijo-4, .hijo-5{
+    width: 200px;
+    height: 300px;
+    background-color: #ffffff;
+    border: solid 1px rgb(189, 185, 185);
+    border-top-right-radius:5px;
+    border-top-left-radius: 5px;
+}
+
+.hijo-1{
+    position: absolute;
+    padding-left: 15px;
+    left: 3%;
+    top:15%
+}
+.hijo-2{
+    position: absolute;
+    padding-left: 15px;
+    left: 21%;
+    top:15%
+}
+.hijo-3{
+    position: absolute;
+    padding-left: 15px;
+    top:15%;
+    left:39%;
+}
+.hijo-4{
+    position: absolute;
+    padding-left: 15px;
+    left: 57%;
+    top:15%
+}
+.hijo-5{
+    position: absolute;
+    padding-left: 15px;
+    top:15%;
+    left:75%;
+}
+.img-fluid{
+    height: auto;
+    width: 100%;
+}
